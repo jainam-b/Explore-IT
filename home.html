@@ -13,7 +13,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <style>
+    .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+    .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #1D4976;
+  font-family: 'Poppins';
+  font-size: 60px;}
 
+    .para {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #1D4976;
+  font-family: 'Poppins';
+  font-size: 27px;
+  margin-top: 250px;
+}
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 70%; /* Adjust the width as needed */
+}
+  </style>
   <body>
     <nav style="height: 10%;">
       <div
@@ -155,5 +190,18 @@
        
         <img class="w-100" src="./WhatsApp Image 2024-03-11 at 15.38.58_2fa2ca9b.jpg" alt="">
     </div>
+
+
+    
+<div class="container">
+    <div class="image-container">
+        <img class="w-100" src="./image.png" alt="">
+        <div class="overlay">
+            <h2>Explore the world</h2>
+            <p>ExploreIT Research is a start-up working towards youth empowerment and environmental activism. We aim to guide motivated, young students to expand their skill sets, achieve their academic goals and work towards creating a positive environmental impact. Our mission is to proactively engage and educate the youth unsustainable development and unite them for the fight against climate change.</p>
+        </div>
+    </div>
+</div>
+    
   </body>
 </html>
